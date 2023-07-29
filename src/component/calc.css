@@ -1,0 +1,55 @@
+
+.container {
+    background-color: red;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    color: #e43d44;
+}
+
+.ops {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.ops .btn {
+    padding:12px 14px;
+    width: 20%;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: #222;
+    color: #fff;
+}
+
+.btn-warning {
+    background-color: #b23000;
+    color:#fff
+}
+
+.btn-success {
+    background-color: #008000;
+    color: #fff;
+}
+
+.output {
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #222;
+    color: #222;
+    font-size: 3em;
+    text-align: right;
+    padding: 0px 30px;
+}
